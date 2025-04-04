@@ -1,0 +1,74 @@
+/* Core stryles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Text colors */
+.text-dark-custom {
+    color: #3a3a47 !important;
+}
+
+.text-grey-custom {
+    color: #5c5c5c !important;
+}
+
+.text-light-grey-custom {
+    color: #818198 !important;
+}
+
+.text-dark-blue-custom {
+    color: #383b61 !important;
+}
+
+.text-blue-custom {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #3498db !important;
+}
+
+.text-green-custom {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #21bf73 !important;
+}
+
+/* Background colors */
+.bg-primary-custom {
+    background-color: #f0f5f9 !important;
+}
+
+/* Forms and buttons styles */
+.btn-blue-custom {
+    color: #3498db;
+    font-weight: 600;
+    border: 2px solid #3498db;
+}
+
+.btn-blue-custom:hover {
+    color: #ffffff;
+    background-color: #3498db;
+}
+
+.btn-green-custom {
+    color: #ffffff;
+    font-weight: 600;
+    border: 2px solid #21bf73;
+    background-color: #21bf73;
+}
+
+.btn-green-custom:hover {
+    color: #ffffff;
+    background-color: #21bf73;
+}
+
+/* Form control custom styles */
+.form-control-custom {
+    height: 45px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222222;
+}

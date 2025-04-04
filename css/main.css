@@ -1,0 +1,346 @@
+/* Navigation section media queries */
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    .navbar-section__desktop-view {
+        display: none;
+    }
+
+    .navbar-section__medium-view {
+        display: block;
+    }
+
+    .navbar-section__medium-view .container .offcanvas {
+        backdrop-filter: blur(8px);
+        background-color: #6a6a6a6c;
+    }
+
+    .navbar-section__medium-view .container .offcanvas .offcanvas-header .btn-close:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .navbar-section__medium-view .container .offcanvas .offcanvas-body .navbar-nav .navbar-section__medium-nav-link {
+        color: #ffffff;
+        transition: 0.1s;
+        background: linear-gradient(to right, #737b7b 0%, #809eb8 51%, #99d2b3 100%);
+        background-size: 200% auto;
+    }
+
+    .navbar-section__medium-view .container .offcanvas .offcanvas-body .navbar-nav .navbar-section__medium-nav-link:hover {
+        border: none;
+        color: #ffffff;
+        transform: scale(1.1);
+        background-position: right center;
+    }
+
+    .navbar-section__medium-view .container .offcanvas .offcanvas-body .navbar-nav .nav-item .btn {
+        color: #ffffff;
+        transition: 0.1s;
+        border: 1px solid #ffffff;
+    }
+
+    .navbar-section__medium-view .container .offcanvas .offcanvas-body .navbar-nav .nav-item .btn:hover {
+        border: none;
+        color: #ffffff;
+        background-position: right center;
+        background: linear-gradient(to right, #737b7b 0%, #809eb8 51%, #99d2b3 100%);
+        background-size: 200% auto;
+    }
+}
+
+@media only screen and (max-width: 576px), (min-width: 992px) {
+    .navbar-section__medium-view {
+        display: none;
+    }
+
+    .navbar-section__desktop-view {
+        display: block;
+    }
+}
+
+/* Home section media queries */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .customHome .row #text {
+        font-size: 19px;
+        min-height: 20px;
+        margin: 20px 0px;
+    }
+
+    .customHome .row .main-section__downloads .btn {
+        font-size: 14px;
+        padding: 10px 15px !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .customHome .row #text {
+        font-size: 17px;
+        min-height: 20px;
+        margin: 20px 0px;
+    }
+}
+
+/* About section media queries */
+@media only screen and (min-width: 375px) and (max-width: 575px) {
+    .about-section__card-item:hover .about-section__card-btn-1,
+    .about-section__card-item:hover .about-section__card-btn-2,
+    .about-section__card-item:hover .about-section__card-btn-3 {
+        width: 129px !important;
+        animation: none !important;
+        transition: none !important;
+        text-align: start !important;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .about-section__card-item:hover .about-section__card-btn-1,
+    .about-section__card-item:hover .about-section__card-btn-2,
+    .about-section__card-item:hover .about-section__card-btn-3 {
+        width: 120px !important;
+        animation: none !important;
+        transition: none !important;
+        text-align: start !important;
+    }
+}
+
+/* Pricing section media queries */
+@media only screen and (max-width: 576px) {
+    .pricing-section__desktop-cards-view {
+        display: none;
+    }
+
+    .pricing-section__card {
+        background-color: #eefff7;
+    }
+
+    .pricing-section__card-img {
+        width: 80px;
+    }
+}
+
+@media only screen and (min-width: 577px) {
+    .pricing-section__mobile-cards-view {
+        display: none;
+    }
+}
+
+/* Footer section media queries */
+@media only screen and (min-width: 375px) and (max-width: 575px) {
+    .customFAQ .customFAQ-container {
+        padding: 48px !important;
+    }
+}
+
+/* Navigation menu styles */
+.navbar .navbar-brand {
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+}
+
+.navbar .navbar-toggler:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.navbar .navbar-nav .nav-item .btn {
+    font-size: 13px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    border: 1px solid #727D73;
+}
+
+.navbar .navbar-nav .nav-item .btn:hover {
+    color: #ffffff;
+}
+
+/* Home section styles */
+.customHome {
+    padding: 220px 0px 160px 0px;
+    background-color: #f0f5f9;
+}
+
+.customHome .row .col-md-6 #text {
+    min-height: 35px;
+    margin: 30px 0px;
+    font-weight: normal;
+}
+
+.customHome .row .col-md-6 .main-section__downloads {
+    margin-top: 25px;
+}
+
+/* About section styles */
+.customAbout {
+    padding: 100px 0px 75px 0px;
+}
+
+.customAbout .row .about-section__card-item-1 {
+    background-color: #fff2e5;
+    transition: 0.3s;
+}
+
+.customAbout .row .about-section__card-item-1:hover {
+    background-color: #ffe3c6;
+}
+
+.customAbout .row .about-section__card-item-2 {
+    background-color: #f8f9fa;
+    transition: 0.3s;
+}
+
+.customAbout .row .about-section__card-item-2:hover {
+    background-color: #d4e9ff;
+}
+
+.customAbout .row .about-section__card-item-3 {
+    background-color: #f0f5f9;
+    transition: 0.3s;
+}
+
+.customAbout .row .about-section__card-item-3:hover {
+    background-color: #e4e4e4;
+}
+
+.about-section__card-item:hover {
+    transform: scale(1.1);
+}
+
+.customAbout .row .about-section__card-item-1 .about-section__card-image,
+.customAbout .row .about-section__card-item-2 .about-section__card-image,
+.customAbout .row .about-section__card-item-3 .about-section__card-image {
+    width: 80px;
+    height: 80px;
+    /* position: relative;
+    transform: translateX(125%); */
+}
+
+.customAbout .row .about-section__card-item-1 .about-section__card-btn-1 {
+    color: #ffffff;
+    background-color: #ff5e00;
+}
+
+.customAbout .row .about-section__card-item-2 .about-section__card-btn-2 {
+    color: #ffffff;
+    background-color: #79c2c8;
+}
+
+.customAbout .row .about-section__card-item-3 .about-section__card-btn-3 {
+    color: #ffffff;
+    background-color: #6a9ab0;
+}
+
+.customAbout .row .about-section__card-item h5 {
+    font-weight: 600;
+}
+
+/* Features section styles */
+.customFeatures {
+    padding: 50px 0px 50px 0px;
+}
+
+.customFeatures .customFeatures-container {
+    padding: 50px 0px 50px 0px;
+    background-color: #f0f5f9;  
+}
+
+.customFeatures .list-unstyled .features-section__tick {
+    width: 30px;
+}
+
+.customFeatures .features-section__feature-img {
+    width: 300px;
+}
+
+/* Results section styles */
+.customResults {
+    padding: 25px 0px;
+}
+
+.customResults h5 {
+    font-size: 18px;
+}
+
+.customResults .row .results-section__card-img {
+    width: 80px;
+}
+
+.customResults .row .results-section__card .results-section__counter .counter-sign {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reviews section styles */
+.customReviews {
+    padding: 50px 0px 0px 0px;
+}
+
+.customReviews-container {
+    padding: 100px 0px 100px 0px;
+    background-color: #f0f5f9;
+}
+
+.customReviews .row .carousel .carousel-inner .carousel-item .reviews-section__quotation,
+.customReviews .row .carousel .carousel-inner .carousel-item .reviews-section__review-img {
+    width: 70px;
+}
+
+/* Pricing section styles */
+.customPricing {
+    padding: 85px 0px 85px 0px;
+    background-color: #daf3ff;
+}
+
+.customPricing .customPricing-container .row .pricing-section__card {
+    transition: 0.3s;
+    background-color: #eefff7;
+}
+
+.customPricing .customPricing-container .row .pricing-section__card h4 {
+    font-weight: 600;
+}
+
+.customPricing .customPricing-container .row .pricing-section__card:hover {
+    transform: scale(1.1);
+}
+
+.customPricing .customPricing-container .row .pricing-section__card .pricing-section__card-img {
+    width: 80px;
+}
+
+/* FAQ section styles */
+.customFAQ .customFAQ-container {
+    padding: 100px 100px 75px 100px;
+    background-color: #f2fbfd;
+}
+
+.customFAQ .customFAQ-container .accordion .accordion-item .accordion-header .accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Start trial section styles */
+.customStartTrial {
+    padding: 50px 0px;
+}
+
+.customStartTrial .input-group .btn {
+    font-size: 13px;
+}
+
+/* Footer section  styles */
+.customFooter .customFooter-container {
+    padding: 50px 0px;
+}

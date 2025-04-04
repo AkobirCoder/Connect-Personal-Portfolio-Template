@@ -1,0 +1,96 @@
+/* Animation styles */
+.customHomeGradient {
+    background: linear-gradient(300deg, #75f3d1, #e1fbff, #d5f5ff);
+    background-size: 180% 180%;
+    animation: customHome-gradient 18s ease infinite;
+}
+
+@keyframes customHome-gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+@keyframes about-section__btn-mover-1 {
+    from {
+        left: 0;
+        width: 150px;
+        background-color: rgb(255, 94, 0);
+    }
+
+    to {
+        left: 0;
+        width: 100%;
+        background-color: rgb(255, 65, 65);
+    }
+}
+
+.about-section__card-item:hover .about-section__card-btn-1 {
+    width: 150px;
+    height: 100%;
+    text-align: right;
+    position: relative;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+    animation-name: about-section__btn-mover-1;
+}
+
+@keyframes about-section__btn-mover-2 {
+    from {
+        left: 0;
+        width: 150px;
+        background-color: rgb(121, 194, 200);
+    }
+
+    to {
+        left: 0;
+        width: 100%;
+        background-color: rgb(52, 125, 185)
+    }
+}
+
+.about-section__card-item:hover .about-section__card-btn-2 {
+    width: 150px;
+    height: 100%;
+    text-align: right;
+    position: relative;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+    animation-name: about-section__btn-mover-2;
+}
+
+@keyframes about-section__btn-mover-3 {
+    from {
+        left: 0;
+        width: 150px;
+        background-color: rgb(105, 153, 176);
+    }
+
+    to {
+        left: 0;
+        width: 100%;
+        background-color: rgb(82, 104, 129);
+    }
+}
+
+.about-section__card-item:hover .about-section__card-btn-3 {
+    width: 150px;
+    height: 100%;
+    text-align: right;
+    position: relative;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+    animation-name: about-section__btn-mover-3;
+}
